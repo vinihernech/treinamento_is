@@ -7,19 +7,19 @@ Para rodar a aplicação basta utilizar os seguintes comandos:
 
 1- Subir o container do broker:
   
-  docker run -d --rm -p 5672:5672 -p 15672:15672 rabbitmq:3.7.6-management
+    docker run -d --rm -p 5672:5672 -p 15672:15672 rabbitmq:3.7.6-management
 
 2- Subir o container do robô:
 
-  sudo docker run --rm --network=host vinihernech/is_training:robot_image
+    sudo docker run --rm --network=host vinihernech/is_training:robot_image
   
 3 - Subir o container do gateway:
 
-  sudo docker run --rm --network=host vinihernech/is_training:gateway_image
+    sudo docker run --rm --network=host vinihernech/is_training:gateway_image
 
 4 - Subir o container do client:
 
-  sudo docker run --rm --network=host vinihernech/is_training:client_image
+    sudo docker run --rm --network=host vinihernech/is_training:client_image
 
 Dessa forma as imagens serão baixadas automaticamente no DockerHub e os containers serão levantados. 
 
