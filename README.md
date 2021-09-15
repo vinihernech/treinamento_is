@@ -5,11 +5,11 @@ O projeto consiste em três containers chamados: client, gateway e robot. Estes 
 
 Para rodar a aplicação basta utilizar os seguintes comandos:
 
-1- Subir o container do broker
-
+1- Subir o container do broker:
+  
   docker run -d --rm -p 5672:5672 -p 15672:15672 rabbitmq:3.7.6-management
 
-2- Subir o container do robô
+2- Subir o container do robô:
 
   sudo docker run --rm --network=host vinihernech/is_training:robot_image
   
