@@ -11,15 +11,15 @@ Para rodar a aplicação basta utilizar os seguintes comandos:
 
 2- Subir o container do robô:
 
-    sudo docker run --rm --network=host vinihernech/is_training:robot_image
+    docker run --rm --network=host vinihernech/is_training:robot_image
   
 3 - Subir o container do gateway:
 
-    sudo docker run --rm --network=host vinihernech/is_training:gateway_image
+    docker run --rm --network=host vinihernech/is_training:gateway_image
 
 4 - Subir o container do client:
 
-    sudo docker run --rm --network=host vinihernech/is_training:client_image
+    docker run --rm --network=host vinihernech/is_training:client_image
 
 Dessa forma as imagens serão baixadas automaticamente no DockerHub e os containers serão levantados. 
 
