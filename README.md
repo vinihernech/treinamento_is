@@ -1,6 +1,6 @@
 # Treinamento_IS
 
-Projeto final para conclusão do treinamento do espaço inteligente.
+Projeto final para conclusão do treinamento.
 O projeto consiste em simular o controle de um robô no espaço inteligente.
 
 Para rodar a aplicação basta utilizar os seguintes comandos:
